@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nested HTML Table</title>
+  </head>
+  <body>
+    <!-- Nested Table -->
+    <h1 style="color: blueviolet">Nested Table</h1>
+    <hr />
+    <table style="width: 100; border: 1px solid black; margin: 10px">
+      <caption style="text-align: center; font-weight: bolder; margin: 10px">
+        Employees info
+      </caption>
+      <tr>
+        <th
+          style="
+            padding: 10px;
+            border: 1px solid brown;
+            text-align: center;
+            background-color: grey;
+          "
+        >
+          Name
+        </th>
+        <th
+          style="
+            padding: 10px;
+            border: 1px solid brown;
+            text-align: center;
+            background-color: grey;
+          "
+        >
+          Age
+        </th>
+        <th
+          style="
+            padding: 10px;
+            border: 1px solid brown;
+            text-align: center;
+            background-color: grey;
+          "
+        >
+          Sex
+        </th>
+        <th
+          style="
+            padding: 10px;
+            border: 1px solid brown;
+            text-align: center;
+            background-color: grey;
+          "
+        >
+          Department
+        </th>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid brown">John</td>
+        <td style="padding: 10px; border: 1px solid brown">32</td>
+        <td style="padding: 10px; border: 1px solid brown">Male</td>
+        <td style="padding: 10px; border: 1px solid brown">
+          <!-Nested-  -->
+          <table style="width: 100%; border: none; margin: 0">
+            <!-- ?Nested Table head -->
+            <tr>
+              <th
+                style="
+                  padding: 10px;
+                  border: 1px solid brown;
+                  text-align: center;
+                  background-color: yellow;
+                "
+              >
+                Dept Name
+              </th>
+              <th
+                style="
+                  padding: 10px;
+                  border: 1px solid brown;
+                  text-align: center;
+                  background-color: yellow;
+                "
+              >
+                Dept manager
+              </th>
+              <th
+                style="
+                  padding: 10px;
+                  border: 1px solid brown;
+                  text-align: center;
+                  background-color: yellow;
+                "
+              >
+                Sales
+              </th>
+            </tr>
+            <!-- ?Nested table data -->
+            <tr>
+              <td style="padding: 10px; border: 1px solid brown">Sales</td>
+              <td style="padding: 10px; border: 1px solid brown">Melissa</td>
+              <td style="padding: 10px; border: 1px solid brown">$2000</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid brown">IT</td>
+              <td style="padding: 10px; border: 1px solid brown">Roman</td>
+              <td style="padding: 10px; border: 1px solid brown">$200000</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid brown">Cody</td>
+        <td style="padding: 10px; border: 1px solid brown">38</td>
+        <td style="padding: 10px; border: 1px solid brown">Male</td>
+        <td style="padding: 10px; border: 1px solid brown">
+          <!-Nested Table -->
+          <table style="width: 100%; border: none; margin: 0">
+            <!-- ?Nested Table head -->
+            <tr>
+              <th
+                style="
+                  padding: 10px;
+                  border: 1px solid brown;
+                  text-align: center;
+                  background-color: yellow;
+                "
+              >
+                Dept Name
+              </th>
+              <th
+                style="
+                  padding: 10px;
+                  border: 1px solid brown;
+                  text-align: center;
+                  background-color: yellow;
+                "
+              >
+                Dept manager
+              </th>
+              <th
+                style="
+                  padding: 10px;
+                  border: 1px solid brown;
+                  text-align: center;
+                  background-color: yellow;
+                "
+              >
+                Sales
+              </th>
+            </tr>
+            <!-- ?Nested table data -->
+            <tr>
+              <td style="padding: 10px; border: 1px solid brown">Finance</td>
+              <td style="padding: 10px; border: 1px solid brown">Seth</td>
+              <td style="padding: 10px; border: 1px solid brown">$8000</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px; border: 1px solid brown">Software</td>
+              <td style="padding: 10px; border: 1px solid brown">Roman</td>
+              <td style="padding: 10px; border: 1px solid brown">$200000</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
